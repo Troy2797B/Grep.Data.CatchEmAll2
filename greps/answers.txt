@@ -1,17 +1,28 @@
 # Part 1
 ### a)
-
-
-
-
+grep butt /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.1
+grep bl /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.1
+grep beed /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.1
+grep bul /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.1
+grep "leon" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.2
+grep "zard" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.2
+grep "o" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.3
+grep "pika" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.3
+grep "ivy" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.3
+grep "ji" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.3
+grep "squi" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.4
+grep "w" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.4
+grep "ven" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.4
+grep "psy" /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/forest/filescan_00.4
 ### b)
 
 
 
-### c)
-
-
-
+### c
+filescan_00.1 has butterfree(38), blastoise(38), beedrill(40), and bulbasaur(30)
+filescan_00.2 has charmeleon(37), charizard(40), and charmander(36)
+filescan_00.3 has pikachu(40), ivysaur(33), jigglypuff(34), and meowth
+filescan_00.4 has wartortle, venusaur, psyduck, and squirtle
 
 
 
@@ -24,6 +35,8 @@
 
 # Part 2
 ### a)
+it says 16, but there are 15
+ls /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/captured | wc -l
 
 
 
@@ -32,6 +45,10 @@
 
 ### b)
 
+pikachu, beedrill, and charizard
+grep -c ^ /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/captured/pikachu.txt
+grep -c ^ /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/captured/beedrill.txt
+grep -c ^ /Users/troyanna/Dev/Projects/Labs/Grep.Data.CatchEmAll2/captured/charizard.txt
 
 
 
